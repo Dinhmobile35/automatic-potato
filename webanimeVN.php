@@ -118,8 +118,6 @@
     <a href="#"><img class="logo2" src=" alt=""></a>
     <div class="aboutus">
 <h3>About Us</h3><p>Shop anime Vn <br>
- <p> © 2018. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 </p><p>do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. <p>GPMXH: 238/GP-BTTTT </p>do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020.</p>
-     </p> 
       </div>
       <div class="hotline">
         <h3>Hotline</h3>
