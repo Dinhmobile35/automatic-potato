@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="profile.js"></script>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
     <title>Thông tin khách hàng</title>
 </head>
-
 <body>
     <?php
     include("ketnoi.php");
     require("header.php");
 
     $ID = 1; // Gán giá trị 1 cho biến $ID
-    $sql_edit = "SELECT * FROM `DANGKI` WHERE ID ='$ID' ";
+    $sql_edit = "SELECT * FROM DANGKI  WHERE ID ='$ID' ";
     $result_edit = $conn->query($sql_edit);
     $row_edit = $result_edit->fetch_array();
-
-
     $sql = "SELECT * FROM DANGKI WHERE 1=1 ";
     $result = $conn->query($sql);
     $error_message = "";
