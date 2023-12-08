@@ -3,60 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="profile.js"></script>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
-    <title>Shop anime VN</title>
+    <title>AnimeVN</title>
 </head>
 <body>
-<?php
-    //include("ketnoi.php");
-   // require("dangki.php");
-    //require("dangnhap.php");
-   // require("header.php")
-    ?>
-    
- <div id="logo1">
-        <video autoplay src="picture/logo/Kuru Kuru Kururin - Raphiiel.mp4" width="100px" height="100px"></video>
-                <a href="https://animevietsub.moe/"></br>SHOP ANIME VN</a>
-          </div> 
-     <div id="menu">
-           
-        <ul id="mainmenu">
-            <li>
-                <a href="https://pops.vn/anime">ANIME VÀ VIDEO</a>
-            </li>
-            <li>
-                <a href="">MANGA VÀ SÁCH</a>
-            </li>
-            <li>
-               <a href="">HÀNG HÓA</a>
-            </li>
-            <li>
-               <a href="">SỐ LIỆU VÀ ĐỒ SƯU TẦM </a>
-            </li>
-            <li>
-                <a href="">TRANG PHỤC</a>   
-            </li> 
-            <div id="taikhoan" >
-            <ul>
-            <li>
-                <a href="dangki.php">đăng kí </a>   
-            </li>  
-            <li>
-                <a href="dangnhap.php">đăng nhập</a>   
-            </li>
-            </ul>
+<header>
+    <div class="container">
+     <div class="logo">
+                <a href=""><img src="./picture/logoz.webp" width="100px" height="50px"alt=""></a>
+                <p><h1>AnimeVN</h1></p>
             </div>
-            <div id="timkiem">
-    <input type="text" name="q" placeholder="Tìm kiếm sản phẩm">
-    <button type="submit">Tìm kiếm</button>
-  </div>
-    </div>
-     
-     <div class="td1"> <p>Danh mục sản phẩm</p></div>
-    <div class="td2">SẢN PHẨM MỚI</div>
+            </div>
+      
+     <nav>
+      
+            <a href="#">Trang chủ</a>
+              <a href="#">Top anime</a>
+                   <a href="#">Thể loại</a>
+                       <a href="#">Mùa</a>
+                            <a href="#">Thư viện</a>
+                              <a href="#">Lịch chiếu</a>
+        
+      </nav>
+       <div class="timkiem">
+<input type="text" name="" placeholder="Tìm kiếm sản phẩm">
+<button type="submit">Tìm kiếm</button> </div>
+
+      <div class="taikhoan" >
+        <ul>
+        <li>
+            <a href="dangki.php">đăng kí </a>   
+        </li>  
+        <li>
+            <a href="dangnhap.php">đăng nhập</a>   
+        </li>
+        </ul>
+       
+       </div>
+</div>
+  </header>
+<div class="list"> <h2>Danh mục sản phẩm</h2></div>
     <ul class="ds">
         <li><a href=#>&#8226;Mô hình</a></li>
         <li><a href=#>&#8226;Đồ cosplay</a></li>
@@ -64,68 +50,104 @@
         <li><a href=#>&#8226;Lót chuột</a></li>
         <li><a href=#>&#8226;Hình dán anime</a></li>
         <li><a href=#>&#8226;Tranh treo tường</a></li>
-</ul>
-<div class="td3"> <p>Sản Phẩm phụ kiện</p> </div>
-<ul class="ds">
-    
-    <li><a href=#> Quần áo anime</li>
-    <li><a href=#> Phụ kiện trang sức anime</a></li>
-    <li><a href=#> PC custom anime</a></li>
-    <li><a href=#> Ốp anime dành cho điện thoại android</a></li>
-    <li><a href=#> Ốp anime dành cho điện thoại iphone</a></li>
-</ul>
-<div class="content">
-    <ul>
-    
-    
-        <li>
-            <img src="picture/mushoku tensei/ph-11134201-7r98y-ln4wgxpu1hdrba.jpg" alt=""><br>
-            <p class="tensp"> <br>Mô hình nữ Roxy Migurida anime Thất Nghiệp Chuyển Sinh<br>tỉ lệ 1/20</p>
-            <p class="gia">2.000.000 VND</p>
-           <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
-       </li>
-
-        <li>
-            <img src="picture/mushoku tensei/650d42562ca06bad69e00d458e991e87.jpg" alt=""><br>
-            <p class="tensp">Mô hình Eris Boreas Greyrat Mushoku Tensei <br> tỉ lệ 1/20</p>
-            <p class="gia">2.500.000 VND</p>
-            <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
-        </li>
-        <li>
-            <img src="picture/sg-11134201-22120-2jtrl32e3jlv31.jpg" alt=""><br>
-            <p class="tensp"> Mô hình Megumin trong anime Konosuba FIGMA 407 khớp<br> cử động được 15 cm</p>
-            <p class="gia">4,490,000 VNĐ</p>
-            <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
-        </li>
-        
-        <li>
-            <img src="picture/11f0e72758eb9d7191129731c76df8d6.jpg" alt=""> <br>
-            <p class="tensp">Mô Hình Nhân Vật Dark Dragoon Forte  Forte The Devoted figure<br></p>
-            <p class="gia">4,790,000 VNĐ</p>
-            <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
-            
-        </li>
-        <li>
-            <img src="picture/vn-11134207-7r98o-lkpbtgw7i1zkdd.jpg" alt=""> <br>
-            <p class="tensp"> Mô hình Hitori Gotou bocchi the rock figure 8 cm có hộp <br> MNGF3ZP</p>
-            <p class="gia">2,990,000 VNĐ</p>
-            <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
-        </li>
     </ul>
-    </div>
+   
+    <div class="list"> <h2>Sản phẩm phụ kiện</h2> </div>
+    <ul class="ds">
+        <li><a href=#>&#8226; Quần áo anime</li>
+        <li><a href=#>&#8226; Phụ kiện trang sức anime</a></li>
+        <li><a href=#>&#8226; PC custom anime</a></li>
+        <li><a href=#>&#8226; Ốp anime dành cho điện thoại android</a></li>
+        <li><a href=#>&#8226; Ốp anime dành cho điện thoại iphone</a></li>
+     </ul>
     <div>
-  <footer>
-    <a href="#"><img class="logo2" src=" alt=""></a>
-    <div class="aboutus">
-<h3>About Us</h3><p>Shop anime Vn <br>
-      </div>
-      <div class="hotline">
-        <h3>Hotline</h3>
-        <p>Phone :(+84) 999-999-999</p>
-        <p>Email: Dinhmboile@gmail.com</p>
-        <p> Địa chỉ: đường thanh bình ,hà đông , hà nội </p>
-      </div>
-  </footer>
-</div>
+        <div id="slideshow">
+            <div class="slide-wrapper">
+            <div class="slide" id="slide-1"><img class="imgSlide" src="./picture/slide/0e16ef8032e081994761f4264c6dd9ee.jpg"></div>
+               <div class="slide" id="slide-2"><img class="imgSlide" src="./picture/slide/e1398c4d0e8679cd69eed6b4959c758f.jpg_360x360q75.jpg_.webp"></div>
+                <div class="slide" id="slide-3"><img class="imgSlide" src="./picture/slide/maxresdefault.jpg"></div>
+                <div class="slide" id="slide-4"><img class="imgSlide" src="./picture/slide/mushoku-tensei-cover.jpg"></div>
+            </div>
+        </div>
+     <div class="td2">SẢN PHẨM MỚI</div>
+        <div class="listProducts">
+            <div class="product">
+                <div class="Products">
+                    <img class="productsImg" src="./picture/OIP.jpg" alt="">
+                    <p class="productsName">Mô hình nữ Roxy Migurida Greyrat Mushoku Tensei </p>
+                    <p class="productsPrice">Giá: 2.000.000đ </p>
+                    <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
+                </div>
+            </div>
+            <div class="Products">
+                <img class="productsImg" src="./picture/OIP (1).jpg" alt="">
+                <p class="productsName">Mô hình Eris Boreas Greyrat Mushoku Tensei</p>
+                <p class="productsPrice">Giá: 5.000.000đ </p>
+                <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
+            </div>
+            <div class="Products">
+                <img class="productsImg" src="./picture/OIP (2).jpg" alt="">
+                <p class="productsName">Mô hình shylete Greyrat Mushoku Tensei </p>
+                <p class="productsPrice">Giá: 1.0000.000đ </p>
+                <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
+            </div>
+            <div class="Products">
+                <img class="productsImg" src="./picture/11f0e72758eb9d7191129731c76df8d6.jpg" alt="">
+                <p class="productsName">Mô Hình Nhân Vật Dark Dragoon Forte  </p>
+                <p class="productsPrice">Giá: 6.500.000đ </p>
+                <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
+            </div>
+            <div class="Products">
+                <img class="productsImg" src="./picture/vn-11134207-7r98o-lkpbtgw7i1zkdd.jpg" alt="">
+                <p class="productsName">Mô hình Hitori Gotou bocchi the rock figure</p>
+                <p class="productsPrice">Giá: 8.000.000đ </p>
+                <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
+            </div>
+            <div class="Products">
+                <img class="productsImg" src="./picture/sg-11134201-22120-2jtrl32e3jlv31.jpg" alt="">
+                <p class="productsName">Mô hình Megumin trong anime Konosuba </p>
+                <p class="productsPrice">Giá: 2.000.000đ </p>
+                <div class="bysubmit"> <button type="submit">Mua ngay</button> </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Thông tin liên hệ</h3>
+              <p>
+                Số điện thoại: 012345678
+                <br>
+                Email: xxxxxxxx@gmail.com
+                <br>
+                Địa chỉ: 123 ABC, Hà Nội
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h3>Liên kết</h3>
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Mạng xã hội</h3>
+              <ul class="social">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="copyright">
+            &copy; 2023 Copyright by Example.com
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
