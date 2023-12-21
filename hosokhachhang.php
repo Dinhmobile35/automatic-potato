@@ -9,8 +9,6 @@
 <body>
     <?php
     include("ketnoi.php");
-    require("header.php");
-
     $ID = 1; // Gán giá trị 1 cho biến $ID
     $sql_edit = "SELECT * FROM DANGKI  WHERE ID ='$ID' ";
     $result_edit = $conn->query($sql_edit);
@@ -39,7 +37,7 @@
         $sql_update .= "GIOI_TINH=` $GIOI_TINH`,";
         $sql_update .= "WHERE ID=`$ID`";
         if ($conn->query($sql_insert)) {
-            header("Location:webbansach.php");
+           
         } else {
             $error_message = "Lỗi sửa dữ liệu " . mysqli_error($conn);
         }
